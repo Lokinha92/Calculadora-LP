@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.calculadora-container {
+    background-color: #869986;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+}
+
+.calculadora {
+    text-align: center;
+}
+
+.visor{
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 171, 154);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Comercial</title>
+</head>
+<body>
+    <div class="calculadora-container">
+        <div class="calculadora">
+            <input class = 'visor' type="text" id="visor" disabled>
+            <br>
+            <button onclick="AddVisor('1')">1</button>
+            <button onclick="AddVisor('2')">2</button>
+            <button onclick="AddVisor('3')">3</button>
+            <button onclick="AddVisor('+')">+</button>
+            <br>
+            <button onclick="AddVisor('4')">4</button>
+            <button onclick="AddVisor('5')">5</button>
+            <button onclick="AddVisor('6')">6</button>
+            <button onclick="AddVisor('-')">-</button>
+            <br>
+            <button onclick="AddVisor('7')">7</button>
+            <button onclick="AddVisor('8')">8</button>
+            <button onclick="AddVisor('9')">9</button>
+            <button onclick="AddVisor('*')">*</button>
+            <br>
+            <button onclick="limparVisor()">C</button>
+            <button onclick="AddVisor('0')">0</button>
+            <button class="igual" onclick="calcularResultado()">=</button>
+            <button onclick="AddVisor('/')">/</button>
+            <br>
+            <button onclick="ArmazenaMemoria()">M+</button>
+            <button onclick="RecuperaMemoria()">MR</button>
+            <button onclick="LimpaMemoria()">MC</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
